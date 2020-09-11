@@ -1,0 +1,19 @@
+__author__ = 'Hrithik Vemparala'
+
+time_delta = 7
+description = "NYUCourantInstitute Room Session"
+floor_number = "LL1"
+room_number = 1
+user_login_file = "userLogins.csv"
+time_preference = [6, 4, 2, 0]
+
+api_key = "key-YOUR-MAILGUN-API-KEY-HERE"
+schedule_id = 'YOUR-CALENDAR-ID-HERE@group.calendar.google.com'
+
+from_email = "SOME_GUY <SOME_GUY@YOUR_DOMAIN.com>"
+to_email = "SOME_OTHER_EMAIL@SOME_DOMAIN.com"
+
+attendees = [
+    {'email': 'attendee1@gmail.com'},
+    {'email': 'attendee2@gmail.com'},
+]
